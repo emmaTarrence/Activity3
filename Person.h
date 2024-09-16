@@ -3,14 +3,13 @@
 #include <string>
 
 class Person {
-
-private: 
+private:
    std::string name;
-
 public:
    Person(std::string _name);
-   std::string getName( );
-   void print();
+   Person();
+   std::string getName();
+   virtual void print();
 };
 
 #endif /* PERSON_H_ */

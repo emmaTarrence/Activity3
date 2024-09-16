@@ -6,10 +6,10 @@ Student::Student(float _gpa, std::string name): Person(name)  {
    gpa = _gpa;
 }
 
-float Student::getGPA( ) {
+float Student::getGPA( ) const{
    return gpa;
 }
 
 void Student::print(){
-   std::cout <<"Name:"<< getName()<< "GPA:" <<getGPA() << std::endl;
+   std::cout <<"Name: "<< getName()<< " GPA: " <<getGPA() << std::endl;
 }

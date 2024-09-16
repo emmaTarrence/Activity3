@@ -11,7 +11,7 @@ private:
 
 public:
    Student(float _gpa, std::string name);
-   float getGPA( );
+   float getGPA( ) const;
    void print();
 };
 
