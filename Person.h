@@ -10,6 +10,7 @@ private:
 public:
    Person(std::string _name);
    std::string getName( );
+   void print();
 };
 
 #endif /* PERSON_H_ */
