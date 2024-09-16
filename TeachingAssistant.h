@@ -14,7 +14,6 @@ public:
      TeachingAssistant();
 
     std::string getCourse() const;
-    virtual ~TeachingAssistant(); 
 };
 
 #endif /* TEACHINGASSISTANT_H */
